@@ -1,6 +1,6 @@
 {
-  "name": "vardot/varbase",
-  "description": "Varbase: The Ultimate Drupal 8 CMS Starter Kit (Bootstrap Ready) | by Vardot",
+  "name": "ahillio/civibase",
+  "description": "CiviCRM on Varbase",
   "type": "drupal-profile",
   "homepage": "https://www.drupal.org/project/varbase",
   "notification-url": "https://packages.drupal.org/8/downloads",
@@ -68,7 +68,10 @@
     "npm-asset/blazy": "~1.0",
     "npm-asset/slick-carousel": "~1.0",
     "npm-asset/ace-builds": "~1.0",
-    "swagger-api/swagger-ui": "~3.0"
+    "swagger-api/swagger-ui": "~3.0",
+    "civicrm/civicrm-asset-plugin": "^1.0",
+    "civicrm/civicrm-drupal-8": "^5.24.0",
+    "civicrm/civicrm-packages": "^5.24.0"
   },
   "require-dev": {
     "drupal/core-dev": "^8.8.0",
